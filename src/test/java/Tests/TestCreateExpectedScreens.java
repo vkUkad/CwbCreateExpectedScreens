@@ -21,28 +21,6 @@ public class TestCreateExpectedScreens extends SetIgnoredElements {
     @Test(description = "Update specific expected screens")
     public void updateSpecificImages() throws IOException {
         createExpectedScreen050();
-        createExpectedScreen052();
-        createExpectedScreen053();
-        createExpectedScreen054();
-        createExpectedScreen055();
-        createExpectedScreen056();
-        createExpectedScreen057();
-        createExpectedScreen058();
-        createExpectedScreen059();
-        createExpectedScreen060();
-        createExpectedScreen061();
-        createExpectedScreen062();
-        createExpectedScreen063();
-        createExpectedScreen064();
-        createExpectedScreen065();
-        createExpectedScreen066();
-        createExpectedScreen068();
-        createExpectedScreen069();
-        createExpectedScreen070();
-        createExpectedScreen077();
-        createExpectedScreen080();
-        createExpectedScreen081();
-        createExpectedScreen082();
     }
 
     @Test(description = "Creating expected screenshot for \"{url}\"")
@@ -796,6 +774,159 @@ public class TestCreateExpectedScreens extends SetIgnoredElements {
     @Test(description = "Creating expected screenshot for \"{url}\"")
     public void createExpectedScreen083() throws IOException {
         Object url = URLS().get(83);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen084() throws IOException {
+        Object url = URLS().get(84);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen085() throws IOException {
+        Object url = URLS().get(85);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen086() throws IOException {
+        Object url = URLS().get(86);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen087() throws IOException {
+        Object url = URLS().get(87);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen088() throws IOException {
+        Object url = URLS().get(88);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen089() throws IOException {
+        Object url = URLS().get(89);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen090() throws IOException {
+        Object url = URLS().get(90);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen091() throws IOException {
+        Object url = URLS().get(91);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen092() throws IOException {
+        Object url = URLS().get(92);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen093() throws IOException {
+        Object url = URLS().get(93);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen094() throws IOException {
+        Object url = URLS().get(94);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen095() throws IOException {
+        Object url = URLS().get(95);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen096() throws IOException {
+        Object url = URLS().get(96);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen097() throws IOException {
+        Object url = URLS().get(97);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen098() throws IOException {
+        Object url = URLS().get(98);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen099() throws IOException {
+        Object url = URLS().get(99);
+        openPage(url.toString());
+        CS.clickOkButton();
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for \"{url}\"")
+    public void createExpectedScreen100() throws IOException {
+        Object url = URLS().get(100);
         openPage(url.toString());
         CS.clickOkButton();
         CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
