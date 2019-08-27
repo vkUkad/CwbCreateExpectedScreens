@@ -15,16 +15,16 @@ public class TestConfig {
     public static WebDriver driver;
 
     public static void testPreconditions() throws AWTException {
-        //hotfix for Chrome 73
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("enable-automation");
+        //hotfix for Chrome 73
+//        options.addArguments("enable-automation");
         //options.addArguments("--headless");
         //options.addArguments("--window-size=1920,1080");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--dns-prefetch-disable");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-browser-side-navigation");
+//        options.addArguments("--no-sandbox");
+//        options.addArguments("--disable-extensions");
+//        options.addArguments("--dns-prefetch-disable");
+//        options.addArguments("--disable-gpu");
+//        options.addArguments("--disable-browser-side-navigation");
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         //hotfix for Chrome 73
         setRootScreenshotsDir("C:\\UkadSiteTestScreens");
