@@ -28,7 +28,7 @@ public class TestConfig {
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         //hotfix for Chrome 73
         setRootScreenshotsDir("C:\\UkadSiteTestScreens");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\v.kelevich\\IdeaProjects\\UKADwebSiteTEsts\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver(options);
         driver.manage().window().setSize(new Dimension(1936, 1056));
         Robot bot = new Robot();
