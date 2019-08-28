@@ -20,7 +20,75 @@ public class TestCreateExpectedScreens extends SetIgnoredElements {
 
     @Test(description = "Update specific expected screens")
     public void updateSpecificImages() throws IOException {
-        createExpectedScreen050();
+//        createExpectedScreen029();
+//        createExpectedScreen030();
+//        createExpectedScreen031();
+//        createExpectedScreen032();
+//        createExpectedScreen033();
+//        createExpectedScreen034();
+//        createExpectedScreen035();
+//        createExpectedScreen036();
+//        createExpectedScreen037();
+//        createExpectedScreen038();
+//        createExpectedScreen039();
+//        createExpectedScreen040();
+//        createExpectedScreen041();
+//        createExpectedScreen042();
+//        createExpectedScreen043();
+//        createExpectedScreen044();
+//        createExpectedScreen045();
+//        createExpectedScreen046();
+//        createExpectedScreen047();
+//        createExpectedScreen048();
+//        createExpectedScreen049();
+//        createExpectedScreen050();
+//        createExpectedScreen051();
+//        createExpectedScreen052();
+//        createExpectedScreen053();
+//        createExpectedScreen054();
+//        createExpectedScreen055();
+//        createExpectedScreen056();
+//        createExpectedScreen057();
+//        createExpectedScreen058();
+//        createExpectedScreen059();
+//        createExpectedScreen060();
+//        createExpectedScreen061();
+//        createExpectedScreen062();
+//        createExpectedScreen063();
+//        createExpectedScreen064();
+//        createExpectedScreen065();
+//        createExpectedScreen066();
+//        createExpectedScreen067();
+//        createExpectedScreen068();
+//        createExpectedScreen069();
+//        createExpectedScreen070();
+//        createExpectedScreen071();
+//        createExpectedScreen072();
+//        createExpectedScreen073();
+//        createExpectedScreen074();
+//        createExpectedScreen075();
+//        createExpectedScreen076();
+//        createExpectedScreen077();
+//        createExpectedScreen078();
+//        createExpectedScreen079();
+//        createExpectedScreen080();
+//        createExpectedScreen081();
+//        createExpectedScreen082();
+//        createExpectedScreen083();
+//        createExpectedScreen084();
+//        createExpectedScreen085();
+//        createExpectedScreen086();
+//        createExpectedScreen087();
+//        createExpectedScreen088();
+//        createExpectedScreen089();
+//        createExpectedScreen090();
+//        createExpectedScreen091();
+//        createExpectedScreen092();
+//        createExpectedScreen093();
+//        createExpectedScreen094();
+//        createExpectedScreen095();
+//        createExpectedScreen096();
+//        createExpectedScreen097();
     }
 
     @Test(description = "Creating expected screenshot for \"{url}\"")
