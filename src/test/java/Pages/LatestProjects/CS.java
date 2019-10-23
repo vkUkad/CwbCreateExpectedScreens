@@ -46,10 +46,10 @@ public class CS {
         ImageIO.write(screenshot.getImage(), "png", actualFile);
     }
 
-    public static void clickOkButton() {
-        WebElement btnOKfromCookiesArea = TestConfig.driver.findElement(By.cssSelector("button[class=\"cookies__button\"]"));
-        if (btnOKfromCookiesArea.isDisplayed()) {
-            btnOKfromCookiesArea.click();
+    public static void clickInitialPopupButton(String element) {
+        WebElement btnFromCookiesArea = TestConfig.driver.findElement(By.cssSelector(element));
+        if (btnFromCookiesArea.isDisplayed()) {
+            btnFromCookiesArea.click();
         }
     }
 
@@ -61,14 +61,14 @@ public class CS {
         for (int i = 0; i < by.length; i++) {
             String currentElement = by[i];
             TestConfig.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-            if (TestConfig.driver.findElements(By.xpath(currentElement)).size() != 0) {
-                RemoveElements.removePageElements(By.xpath(currentElement));
+            if (TestConfig.driver.findElements(By.cssSelector(currentElement)).size() != 0) {
+                RemoveElements.removePageElements(By.cssSelector(currentElement));
             }
         }
     }
 
     public static String getExpectedScreenshotTitle(String input) {
-        String name = input.replaceAll("https://www.ukad-group.com/", "") + "_expected_window.size-" + TestConfig.browserWindowSize();
+        String name = input.replaceAll("https://", "") + "_expected_window.size-" + TestConfig.browserWindowSize();
         name = name.replaceAll("/", "_");
         return name;
     }
