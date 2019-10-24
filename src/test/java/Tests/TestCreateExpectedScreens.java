@@ -30,6 +30,33 @@ public class TestCreateExpectedScreens extends SetIgnoredElements {
         CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
         CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
     }
+
+    @Test(description = "Creating expected screenshot for 'Home page / Business")
+    public void createExpectedScreen001() throws IOException {
+        Object url = URLS().get(1);
+        openPage(url.toString());
+        //CS.clickInitialPopupButton("button[class=\"btn btn--full-width btn--primary-orange js-changeVisitorType\"]");
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for 'Home page / Business")
+    public void createExpectedScreen002() throws IOException {
+        Object url = URLS().get(2);
+        openPage(url.toString());
+        //CS.clickInitialPopupButton("button[class=\"btn btn--full-width btn--primary-orange js-changeVisitorType\"]");
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
+
+    @Test(description = "Creating expected screenshot for 'Home page / Business")
+    public void createExpectedScreen003() throws IOException {
+        Object url = URLS().get(3);
+        openPage(url.toString());
+        //CS.clickInitialPopupButton("button[class=\"btn btn--full-width btn--primary-orange js-changeVisitorType\"]");
+        CS.removeElementsFromCreateExpectedScreensPages(elementsToRemove());
+        CS.writeToFileToExpectedDir(CS.getExpectedScreenshotTitle(url.toString()), CS.takeScreenshot());
+    }
 //
 //    @Test(description = "Creating expected screenshot for \"{url}\"")
 //    public void createExpectedScreen001() throws IOException {

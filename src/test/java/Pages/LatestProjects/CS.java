@@ -29,7 +29,7 @@ public class CS {
     public static Screenshot takeScreenshot() {
         TestConfig.driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         Screenshot screenshot = new AShot()
-                .shootingStrategy(ShootingStrategies.viewportPasting(1500))
+                .shootingStrategy(ShootingStrategies.viewportPasting(3000))
                 .takeScreenshot(TestConfig.driver);
         return screenshot;
     }
@@ -70,17 +70,18 @@ public class CS {
     public static String getExpectedScreenshotTitle(String input) {
         String name = input.replaceAll("https://", "") + "_expected_window.size-" + TestConfig.browserWindowSize();
         name = name.replaceAll("/", "_");
+        name= name.replaceAll("\\?","");
         return name;
     }
 
     public static String getActualScreenshotTitle(String input) {
-        String name = input.replaceAll("https://www.ukad-group.com/", "") + "_actual_window.size-" + TestConfig.browserWindowSize();
+        String name = input.replaceAll("https://", "") + "_actual_window.size-" + TestConfig.browserWindowSize();
         name = name.replaceAll("/", "_");
         return name;
     }
 
     public static String getDifferenceScreenshotTitle(String input) {
-        String name = input.replaceAll("https://www.ukad-group.com/", "") + "_difference_window.size-" + TestConfig.browserWindowSize();
+        String name = input.replaceAll("https://", "") + "_difference_window.size-" + TestConfig.browserWindowSize();
         name = name.replaceAll("/", "_");
         return name;
     }

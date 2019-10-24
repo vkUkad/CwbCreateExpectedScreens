@@ -58,16 +58,19 @@ public class TestConfig {
 
     public static ArrayList URLS() {
         ArrayList<String> testingURLs = new ArrayList<String>();
-        testingURLs.add("https://preprod.cowab.com/sv/se");
+        testingURLs.add("https://preprod.cowab.com/sv/se");//home page
+        testingURLs.add("https://preprod.cowab.com/sv/se/sok?q=441562&v=637075132991878540");//product listing
+        testingURLs.add("https://preprod.cowab.com/sv/se/omkladningsrum/skap/omkladningsskap/kladskap-pn3178?ic=441562");//regular product page
+        testingURLs.add("https://preprod.cowab.com/sv/se/kontor-konferens/entre-reception/entremattor/entrematta-pn6458?ic=41362");//cut by meter
         return testingURLs;
     }
 
     public static String[] elementsToRemove() {
-
-        String[] elements = new String[2];
-        //Using Xpath
+        String[] elements = new String[4];
         elements[0] = "div[class=\"zoid-outlet\"]";
         elements[1] = "header[class=\"js-header\"]";
+        elements[2] = "div[class='pagelist']";
+        elements[3] = "span[class='measure-control__btn measure-control__btn--plus js-measure-control__btn--plus']";
         return elements;
     }
 }
