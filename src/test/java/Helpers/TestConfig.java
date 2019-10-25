@@ -16,17 +16,17 @@ public class TestConfig {
 
     public static void testPreconditions() throws AWTException {
         ChromeOptions options = new ChromeOptions();
-        //hotfix for Chrome 73
+//        hotfix for Chrome 73
 //        options.addArguments("enable-automation");
-        //options.addArguments("--headless");
-        //options.addArguments("--window-size=1920,1080");
+//        options.addArguments("--headless");
+//        options.addArguments("--window-size=1920,1080");
 //        options.addArguments("--no-sandbox");
 //        options.addArguments("--disable-extensions");
 //        options.addArguments("--dns-prefetch-disable");
 //        options.addArguments("--disable-gpu");
 //        options.addArguments("--disable-browser-side-navigation");
+//        hotfix for Chrome 73
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        //hotfix for Chrome 73
         setRootScreenshotsDir("C:\\CowabSiteTestScreens");
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver(options);
@@ -65,12 +65,14 @@ public class TestConfig {
         return testingURLs;
     }
 
-    public static String[] elementsToRemove() {
-        String[] elements = new String[4];
-        elements[0] = "div[class=\"zoid-outlet\"]";
-        elements[1] = "header[class=\"js-header\"]";
-        elements[2] = "div[class='pagelist']";
-        elements[3] = "span[class='measure-control__btn measure-control__btn--plus js-measure-control__btn--plus']";
+    public static ArrayList<String> elementsToRemove() {
+        ArrayList<String> elements = new ArrayList<String>();
+
+        elements.add("div[class=\"zoid-outlet\"]");
+        elements.add("header[class=\"js-header\"]");
+        elements.add("div[class='pagelist']");
+        elements.add("span[class='measure-control__btn measure-control__btn--plus js-measure-control__btn--plus']");
+        elements.add("span[class='measure-control__btn measure-control__btn--minus js-measure-control__btn--minus measure-control__btn--disabled']");
         return elements;
     }
 }
