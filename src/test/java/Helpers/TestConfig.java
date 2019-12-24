@@ -27,7 +27,7 @@ public class TestConfig {
 //        options.addArguments("--disable-browser-side-navigation");
 //        hotfix for Chrome 73
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        setRootScreenshotsDir("C:\\CowabSiteTestScreens");
+        setRootScreenshotsDir("C:\\Vikentiy");
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver(options);
         driver.manage().window().setSize(new Dimension(1936, 1056));
