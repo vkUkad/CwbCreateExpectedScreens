@@ -30,7 +30,8 @@ public class TestConfig {
         setRootScreenshotsDir("C:\\Vikentiy");
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver(options);
-        driver.manage().window().setSize(new Dimension(1936, 1056));
+        //driver.manage().window().setSize(new Dimension(1936, 1056));
+        driver.manage().window().setSize(new Dimension(1566, 830));
         System.out.println("Screen size is: " + driver.manage().window().getSize().toString());
         Robot bot = new Robot();
         bot.mouseMove(0, 0);
