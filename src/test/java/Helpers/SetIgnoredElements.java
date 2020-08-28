@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class SetIgnoredElements {
     public static Set<By> setTheElements() {
-        Set<By> set = new HashSet() {
+        Set<By> set = new HashSet<By>() {
         };
         set.add(By.id("header"));
         return set;
